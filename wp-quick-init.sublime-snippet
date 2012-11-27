@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+add_action( 'init', function(){ ${1} } );
+]]></content>
+	<tabTrigger>init</tabTrigger>
+	<scope>source.php</scope>
+	<description>Debug helper</description>
+</snippet>

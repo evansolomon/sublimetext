@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+( ( \$ ) ->
+	$1
+) jQuery
+]]></content>
+	<tabTrigger>cjq</tabTrigger>
+	<scope>source.coffee</scope>
+	<description>Closure + jQuery boilerplate</description>
+</snippet>

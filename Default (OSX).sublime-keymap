@@ -1,0 +1,10 @@
+[
+	// Open new files
+	{ "keys": ["super+t"], "command": "new_file" },
+	// Find/replace
+	{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace"} },
+	// Shortcut for alignment plugin
+	{ "keys": ["super+alt+]"], "command": "alignment" },
+	// Toggle spellchecker
+	{ "keys": ["ctrl+s"], "command": "toggle_setting", "args": {"setting": "spell_check"} }
+]

@@ -1,0 +1,26 @@
+{
+	// Visual
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"font_face": "Inconsolata-dz",
+	"font_size": 14.0,
+	"theme": "Soda Dark.sublime-theme",
+	"word_wrap": true,
+
+	// Easier navigation
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+
+	// Annoying and not useful
+	"detect_slow_plugins": false,
+	"hot_exit": false,
+	"open_files_in_new_window": false,
+	"remember_open_files": false,
+
+	// If I wanted to use vi, I would
+	"ignored_packages": ["Vintage"],
+
+	// Code style help
+	"rulers":[100],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false
+}

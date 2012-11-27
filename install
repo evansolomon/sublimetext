@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+# Run ./install to start symlinking magic
+
+import os
+import shutil
+import sys
+
+# Make sure ST2 is where it normally is
+st2_base = os.getenv('HOME') + "/Library/Application Support/Sublime Text 2/Packages/"
+if not os.path.isdir(st2_base):
+    sys.exit("Couldn't find Sublime Text 2 path, expected it at: " + st2_base)
+
+st2 = {
+    'user': st2_base + 'User',
+    'backup': st2_base + 'User_backup'
+}
+
+# Back up the current directory if one exists
+if os.path.isdir(st2['user']):
+    if os.path.islink(st2['user']):
+        print "Your settings directory is already a symlink, unlinking it"
+        os.unlink(st2['user'])
+    else:
+        print "Backing up your settings to", st2['backup']
+        shutil.copytree(st2['user'], st2['backup'])
+        shutil.rmtree(st2['user'])
+
+# Symlink this repo to the ST2 directory
+print "Symlinking this repository to your Sublime Text 2 directory"
+this_path = os.path.dirname(os.path.realpath(__file__))
+os.symlink(this_path, st2['user'])

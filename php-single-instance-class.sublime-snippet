@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+class ${1:class} {
+	private static \$instance;
+
+	static function get_instance() {
+		if ( ! self::\$instance )
+			self::\$instance = new ${1:class};
+
+		return self::\$instance;
+	}
+
+	private function __construct() {
+
+	}
+}
+
+${1:class}::get_instance();
+
+]]></content>
+	<tabTrigger>cl</tabTrigger>
+	<scope>source.php</scope>
+	<description>PHP singleton boilerplate</description>
+</snippet>
