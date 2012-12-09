@@ -1,4 +1,6 @@
 {
+	"alignment_chars": ["=", ":"],
+	"alignment_space_chars": ["=", ":"],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"detect_slow_plugins": false,
 	"font_face": "Inconsolata-dz",
@@ -19,7 +21,5 @@
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"word_wrap": true,
-	"alignment_chars": ["=", ":"],
-	"alignment_space_chars": ["=", ":"]
+	"word_wrap": true
 }
