@@ -19,5 +19,7 @@
 	"tab_size": 2,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"word_wrap": true
+	"word_wrap": true,
+	"alignment_chars": ["=", ":"],
+	"alignment_space_chars": ["=", ":"]
 }
