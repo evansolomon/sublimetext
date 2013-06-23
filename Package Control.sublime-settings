@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Better CoffeeScript",
 		"DocBlockr",
 		"Function Name Display",
 		"Git",
@@ -14,7 +15,6 @@
 		"Package Control",
 		"rsub",
 		"Sass",
-		"sublime-better-coffeescript",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"Theme - Soda",
