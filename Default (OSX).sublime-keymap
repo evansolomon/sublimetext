@@ -6,5 +6,10 @@
 	// Shortcut for alignment plugin
 	{ "keys": ["super+alt+]"], "command": "alignment" },
 	// Toggle spellchecker
-	{ "keys": ["ctrl+s"], "command": "toggle_setting", "args": {"setting": "spell_check"} }
+	{ "keys": ["ctrl+s"], "command": "toggle_setting", "args": {"setting": "spell_check"} },
+	// Open Terminal in project directory
+	{ "keys": ["super+shift+i"], "command": "open_terminal_project_folder" },
+	// This is a default key binding. It's included here to prevent the Terminal
+	// plugin from reclaiming it. Sneaky bastard.
+	{ "keys": ["super+shift+t"], "command": "reopen_last_file" }
 ]
