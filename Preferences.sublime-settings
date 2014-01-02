@@ -11,6 +11,7 @@
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"detect_slow_plugins": false,
+	"enable_tab_scrolling": false,
 	"font_face": "Inconsolata-dz",
 	"font_size": 14.0,
 	"highlight_line": true,
