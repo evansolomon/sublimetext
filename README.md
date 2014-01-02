@@ -1,6 +1,6 @@
-# Sublime Text 2 settings
+# Sublime Text 3 settings
 
-Just a copy of my settings for Sublime Text 2
+Just a copy of my settings for Sublime Text 3
 
 ## Install
 

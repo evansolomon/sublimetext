@@ -6,7 +6,7 @@ import shutil
 import sys
 
 # Make sure ST2 is where it normally is
-st2_base = os.getenv('HOME') + "/Library/Application Support/Sublime Text 2/Packages/"
+st2_base = os.getenv('HOME') + "/Library/Application Support/Sublime Text 3/Packages/"
 if not os.path.isdir(st2_base):
     sys.exit("Couldn't find Sublime Text 2 path, expected it at: " + st2_base)
 
